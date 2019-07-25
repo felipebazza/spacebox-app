@@ -1,0 +1,33 @@
+.person {
+    background: white;
+    padding: $s-size $s-size;
+    font-size: $s-size;
+    margin-bottom: $m-size;
+}
+
+p span {
+    font-weight: bold;
+}
+
+.person__container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 0 $s-size;
+    grid-gap: $s-size;
+}
+
+.person__card {
+    background: white;
+    font-size: $s-size;
+    width: 100%;
+    text-decoration: none;
+    text-align: left;
+}
+
+.person__image {
+    border-radius: 50px;
+    float: left;
+    height: 80px;
+    width: 80px;
+    margin-right: $m-size;
+}

@@ -1,0 +1,38 @@
+.header {
+  background: linear-gradient(to right, $light-blue, $dark-blue);
+  color: #fff;
+  margin-bottom: $m-size;
+  padding: $mm-size 0;
+}
+
+@media (min-width: $desktop-breakpoint) {
+  .header {
+    margin-bottom: $xl-size;
+  }
+}
+
+.header__title {
+  border: 3px solid $dark-blue;
+  color: $dark-blue;
+  display: inline;
+  font-size: $m-size;
+  margin: 0;
+  padding: 5px;
+}
+
+.header__subtitle {
+  background: $dark-blue;
+  color: darken($light-blue, 6%);
+  display: inline;
+  font-size: $m-size;
+  margin: 0;
+  padding: 8px;
+}
+
+.header__link {
+  color: white;
+  font-size: $s-size;
+  float: right;
+  text-decoration: none;
+  margin-right: 13px;
+}
