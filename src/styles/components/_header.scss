@@ -5,9 +5,17 @@
   padding: $mm-size 0;
 }
 
+.header__link {
+  color: white;
+  font-size: $s-size;
+  float: right;
+  text-decoration: none;
+  margin-right: 13px;
+}
+
 @media (min-width: $desktop-breakpoint) {
   .header {
-    margin-bottom: $xl-size;
+    margin-bottom: $l-size;
   }
 }
 
@@ -27,12 +35,4 @@
   font-size: $m-size;
   margin: 0;
   padding: 8px;
-}
-
-.header__link {
-  color: white;
-  font-size: $s-size;
-  float: right;
-  text-decoration: none;
-  margin-right: 13px;
 }

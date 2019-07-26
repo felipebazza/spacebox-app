@@ -1,9 +1,9 @@
 import React from 'react';
 
 const Person = (props) => (
-  <div>
+  <div className="person__card">
     <a
-      className="person__card"
+      className="person__link"
       href="#"
       onClick={(e) => {
         props.handleSelectedPerson({
@@ -11,7 +11,7 @@ const Person = (props) => (
           nome: props.nome,
           cargo: props.cargo,
           idade: props.idade
-        })
+        }, e)
       }}
     >
       <div>
@@ -20,8 +20,8 @@ const Person = (props) => (
           alt={props.nome}
           className="person__image"
         />
-        <p><span>{props.nome}</span></p>
-        <p>{props.cargo}</p>
+        <p><span className="person__name">{props.nome}</span></p>
+        <span>{props.cargo}</span>
       </div>
     </a>
 
