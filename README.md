@@ -2,6 +2,11 @@
 
 Aplicação construída como teste de conhecimentos para em desenvolvimento frontend.
 
+## Pré-requisitos para o Projeto
+
+* Ter o Node.js instalado **https://nodejs.org/en/**
+* Ter o Yarn instalado **https://yarnpkg.com/latest.msi**
+
 ## Instalando e Executando o Projeto 
 
 * Navegar até a pasta do projeto pelo terminal
